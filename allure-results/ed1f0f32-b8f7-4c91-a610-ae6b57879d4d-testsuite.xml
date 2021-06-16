@@ -1,0 +1,239 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623826557409' stop='1623826803551'>
+    <name>Testing Bikroy.com</name>
+    <title>Testing Bikroy.com</title>
+    <test-cases>
+        <test-case start='1623826557409' status='passed' stop='1623826566514'>
+            <name>TC-001: Open Bikroy Site in Browser</name>
+            <title>TC-001: Open Bikroy Site in Browser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826566551' status='passed' stop='1623826577983'>
+            <name>TC-003 Login</name>
+            <title>TC-003 Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826578017' status='broken' stop='1623826584305'>
+            <name>TC-004 Invalid Password</name>
+            <title>TC-004 Invalid Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;a href="/en/users/non-pwa/login" rel="nofollow" target="">...&lt;/a>`
+                
+                This element `&lt;a>` is not visible because its parent `&lt;li.ui-nav-item.nav-login>` has CSS property: `display: none`
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;a href="/en/users/non-pwa/login" rel="nofollow" target="">...&lt;/a>`
+                
+                This element `&lt;a>` is not visible because its parent `&lt;li.ui-nav-item.nav-login>` has CSS property: `display: none`
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at $Cy.ensureVisibility (https://bikroy.com/__cypress/runner/cypress_runner.js:142412:24)
+                    at runAllChecks (https://bikroy.com/__cypress/runner/cypress_runner.js:131087:14)
+                    at retryActionability (https://bikroy.com/__cypress/runner/cypress_runner.js:131141:16)
+                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)
+                    at Function.Promise.attempt.Promise.try (https://bikroy.com/__cypress/runner/cypress_runner.js:8072:29)
+                    at tryFn (https://bikroy.com/__cypress/runner/cypress_runner.js:147090:21)
+                    at whenStable (https://bikroy.com/__cypress/runner/cypress_runner.js:147128:12)
+                    at https://bikroy.com/__cypress/runner/cypress_runner.js:146620:16
+                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)
+                    at Promise._settlePromiseFromHandler (https://bikroy.com/__cypress/runner/cypress_runner.js:8733:31)
+                    at Promise._settlePromise (https://bikroy.com/__cypress/runner/cypress_runner.js:8790:18)
+                    at Promise._settlePromise0 (https://bikroy.com/__cypress/runner/cypress_runner.js:8835:10)
+                    at Promise._settlePromises (https://bikroy.com/__cypress/runner/cypress_runner.js:8915:18)
+                    at Promise._fulfill (https://bikroy.com/__cypress/runner/cypress_runner.js:8859:18)
+                    at https://bikroy.com/__cypress/runner/cypress_runner.js:10473:46
+                From Your Spec Code:
+                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroy_demo.spec.js:2252:27)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623826584392' status='passed' stop='1623826597694'>
+            <name>TC-005 Show all ads</name>
+            <title>TC-005 Show all ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826597736' status='passed' stop='1623826609106'>
+            <name>TC-006 Show all urgent ads</name>
+            <title>TC-006 Show all urgent ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826609148' status='passed' stop='1623826617696'>
+            <name>TC-007 Display ads by Category</name>
+            <title>TC-007 Display ads by Category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826617740' status='passed' stop='1623826629247'>
+            <name>TC-008 Show ads by location</name>
+            <title>TC-008 Show ads by location</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826629290' status='passed' stop='1623826639434'>
+            <name>TC-009 Ads Search</name>
+            <title>TC-009 Ads Search</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826639469' status='broken' stop='1623826670829'>
+            <name>TC-010 Search and count number of ads</name>
+            <title>TC-010 Search and count number of ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.visit()` failed trying to load:
+                
+                https://bikroy.com/en/ads/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer</message>
+                <stack-trace>CypressError: `cy.visit()` failed trying to load:
+                
+                https://bikroy.com/en/ads/
+                
+                We attempted to make an http request to this URL but the request failed without a response.
+                
+                We received this error at the network level:
+                
+                  > Error: ESOCKETTIMEDOUT
+                
+                Common situations why this would fail:
+                  - you don't have internet access
+                  - you forgot to run / boot your web server
+                  - your web server isn't accessible
+                  - you have weird network configuration settings on your computer
+                    at https://bikroy.com/__cypress/runner/cypress_runner.js:138905:23
+                    at visitFailedByErr (https://bikroy.com/__cypress/runner/cypress_runner.js:138264:12)
+                    at https://bikroy.com/__cypress/runner/cypress_runner.js:138904:11
+                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)
+                    at Promise._settlePromiseFromHandler (https://bikroy.com/__cypress/runner/cypress_runner.js:8733:31)
+                    at Promise._settlePromise (https://bikroy.com/__cypress/runner/cypress_runner.js:8790:18)
+                    at Promise._settlePromise0 (https://bikroy.com/__cypress/runner/cypress_runner.js:8835:10)
+                    at Promise._settlePromises (https://bikroy.com/__cypress/runner/cypress_runner.js:8911:18)
+                    at _drainQueueStep (https://bikroy.com/__cypress/runner/cypress_runner.js:5505:12)
+                    at _drainQueue (https://bikroy.com/__cypress/runner/cypress_runner.js:5498:9)
+                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://bikroy.com/__cypress/runner/cypress_runner.js:5514:5)
+                    at Async.drainQueues (https://bikroy.com/__cypress/runner/cypress_runner.js:5384:14)
+                From Your Spec Code:
+                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroy_demo.spec.js:2294:8)
+                
+                From Node.js Internals:
+                  Error: ESOCKETTIMEDOUT
+                      at ClientRequest.&lt;anonymous> (/home/hasib/.cache/Cypress/7.5.0/Cypress/resources/app/packages/server/node_modules/@cypress/request/request.js:816:19)
+                      at Object.onceWrapper (events.js:421:28)
+                      at ClientRequest.emit (events.js:315:20)
+                      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)
+                      at Object.onceWrapper (events.js:421:28)
+                      at TLSSocket.emit (events.js:327:22)
+                      at TLSSocket.Socket._onTimeout (net.js:483:8)
+                      at listOnTimeout (internal/timers.js:554:17)
+                      at processTimers (internal/timers.js:497:7)
+                  </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1623826670893' status='passed' stop='1623826681896'>
+            <name>TC-011 Get lowest price</name>
+            <title>TC-011 Get lowest price</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826681946' status='passed' stop='1623826697424'>
+            <name>TC-013 Show to product details</name>
+            <title>TC-013 Show to product details</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826697475' status='passed' stop='1623826712047'>
+            <name>TC-014 Show phone number</name>
+            <title>TC-014 Show phone number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826712116' status='passed' stop='1623826724199'>
+            <name>TC-015 Assert product description</name>
+            <title>TC-015 Assert product description</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826724251' status='passed' stop='1623826749066'>
+            <name>TC-018 Add product on Favorites</name>
+            <title>TC-018 Add product on Favorites</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826749109' status='passed' stop='1623826758952'>
+            <name>TC-019 Show to favorites product list</name>
+            <title>TC-019 Show to favorites product list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826758972' status='passed' stop='1623826760206'>
+            <name>TC-020 Assert Browse our top category</name>
+            <title>TC-020 Assert Browse our top category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1623826760240' status='passed' stop='1623826803550'>
+            <name>TC-021 Open all Browse our top category link</name>
+            <title>TC-021 Open all Browse our top category link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

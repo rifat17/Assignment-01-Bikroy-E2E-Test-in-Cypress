@@ -1,0 +1,44 @@
+{
+  "uid" : "9c8fbac3c34d6016",
+  "name" : "TC-011 Get lowest price",
+  "fullName" : "Testing Bikroy.com.TC-011 Get lowest price",
+  "historyId" : "dca1f4fa8bfbc2b55bf6a31ea1aa9756",
+  "time" : {
+    "start" : 1623826670893,
+    "stop" : 1623826681896,
+    "duration" : 11003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-011 Get lowest price"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9c8fbac3c34d6016.json",
+  "parameterValues" : [ ]
+}

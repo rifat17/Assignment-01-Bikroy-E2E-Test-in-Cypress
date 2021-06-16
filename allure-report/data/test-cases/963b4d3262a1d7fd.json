@@ -1,0 +1,54 @@
+{
+  "uid" : "963b4d3262a1d7fd",
+  "name" : "TC-015 Assert product description",
+  "fullName" : "Testing Bikroy.com.TC-015 Assert product description",
+  "historyId" : "628253d250f64ce0df39241bd148dc11",
+  "time" : {
+    "start" : 1623827129841,
+    "stop" : 1623827138036,
+    "duration" : 8195
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-015 Assert product description"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b22fb32e97bc179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623826712116,
+        "stop" : 1623826724199,
+        "duration" : 12083
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "963b4d3262a1d7fd.json",
+  "parameterValues" : [ ]
+}

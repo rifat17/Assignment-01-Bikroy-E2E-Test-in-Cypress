@@ -1,0 +1,54 @@
+{
+  "uid" : "5bbc2e9313e40ea8",
+  "name" : "TC-008 Show ads by location",
+  "fullName" : "Testing Bikroy.com.TC-008 Show ads by location",
+  "historyId" : "7d7441b425301cedfec28e38fdc85c49",
+  "time" : {
+    "start" : 1623827084374,
+    "stop" : 1623827092269,
+    "duration" : 7895
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-008 Show ads by location"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "caf9ccbe4b3baa66",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623826617740,
+        "stop" : 1623826629247,
+        "duration" : 11507
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bbc2e9313e40ea8.json",
+  "parameterValues" : [ ]
+}

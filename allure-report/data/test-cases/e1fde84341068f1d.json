@@ -1,0 +1,55 @@
+{
+  "uid" : "e1fde84341068f1d",
+  "name" : "TC-010 Search and count number of ads",
+  "fullName" : "Testing Bikroy.com.TC-010 Search and count number of ads",
+  "historyId" : "dc2c988899b006f4c819ae0b10cb4441",
+  "time" : {
+    "start" : 1623827099241,
+    "stop" : 1623827104781,
+    "duration" : 5540
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-010 Search and count number of ads"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2fbe63acbbde5ef0",
+      "status" : "broken",
+      "statusDetails" : "`cy.visit()` failed trying to load:\n                \n                https://bikroy.com/en/ads/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+      "time" : {
+        "start" : 1623826639469,
+        "stop" : 1623826670829,
+        "duration" : 31360
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1fde84341068f1d.json",
+  "parameterValues" : [ ]
+}

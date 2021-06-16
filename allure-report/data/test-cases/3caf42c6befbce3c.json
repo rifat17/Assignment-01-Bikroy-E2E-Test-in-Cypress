@@ -1,0 +1,54 @@
+{
+  "uid" : "3caf42c6befbce3c",
+  "name" : "TC-009 Ads Search",
+  "fullName" : "Testing Bikroy.com.TC-009 Ads Search",
+  "historyId" : "c178b8125062572199f2508bd4627330",
+  "time" : {
+    "start" : 1623827092282,
+    "stop" : 1623827099223,
+    "duration" : 6941
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-009 Ads Search"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b46982e9af70906b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623826629290,
+        "stop" : 1623826639434,
+        "duration" : 10144
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3caf42c6befbce3c.json",
+  "parameterValues" : [ ]
+}

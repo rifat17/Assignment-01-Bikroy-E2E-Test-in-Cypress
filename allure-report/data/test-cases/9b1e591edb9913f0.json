@@ -1,0 +1,44 @@
+{
+  "uid" : "9b1e591edb9913f0",
+  "name" : "TC-014 Show phone number",
+  "fullName" : "Testing Bikroy.com.TC-014 Show phone number",
+  "historyId" : "527ccdfa8c6c9bf2261aec3094dab966",
+  "time" : {
+    "start" : 1623826697475,
+    "stop" : 1623826712047,
+    "duration" : 14572
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-014 Show phone number"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9b1e591edb9913f0.json",
+  "parameterValues" : [ ]
+}

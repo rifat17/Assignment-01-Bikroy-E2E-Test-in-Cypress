@@ -1,0 +1,46 @@
+{
+  "uid" : "2fbe63acbbde5ef0",
+  "name" : "TC-010 Search and count number of ads",
+  "fullName" : "Testing Bikroy.com.TC-010 Search and count number of ads",
+  "historyId" : "dc2c988899b006f4c819ae0b10cb4441",
+  "time" : {
+    "start" : 1623826639469,
+    "stop" : 1623826670829,
+    "duration" : 31360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "`cy.visit()` failed trying to load:\n                \n                https://bikroy.com/en/ads/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer",
+  "statusTrace" : "CypressError: `cy.visit()` failed trying to load:\n                \n                https://bikroy.com/en/ads/\n                \n                We attempted to make an http request to this URL but the request failed without a response.\n                \n                We received this error at the network level:\n                \n                  > Error: ESOCKETTIMEDOUT\n                \n                Common situations why this would fail:\n                  - you don't have internet access\n                  - you forgot to run / boot your web server\n                  - your web server isn't accessible\n                  - you have weird network configuration settings on your computer\n                    at https://bikroy.com/__cypress/runner/cypress_runner.js:138905:23\n                    at visitFailedByErr (https://bikroy.com/__cypress/runner/cypress_runner.js:138264:12)\n                    at https://bikroy.com/__cypress/runner/cypress_runner.js:138904:11\n                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)\n                    at Promise._settlePromiseFromHandler (https://bikroy.com/__cypress/runner/cypress_runner.js:8733:31)\n                    at Promise._settlePromise (https://bikroy.com/__cypress/runner/cypress_runner.js:8790:18)\n                    at Promise._settlePromise0 (https://bikroy.com/__cypress/runner/cypress_runner.js:8835:10)\n                    at Promise._settlePromises (https://bikroy.com/__cypress/runner/cypress_runner.js:8911:18)\n                    at _drainQueueStep (https://bikroy.com/__cypress/runner/cypress_runner.js:5505:12)\n                    at _drainQueue (https://bikroy.com/__cypress/runner/cypress_runner.js:5498:9)\n                    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://bikroy.com/__cypress/runner/cypress_runner.js:5514:5)\n                    at Async.drainQueues (https://bikroy.com/__cypress/runner/cypress_runner.js:5384:14)\n                From Your Spec Code:\n                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroy_demo.spec.js:2294:8)\n                \n                From Node.js Internals:\n                  Error: ESOCKETTIMEDOUT\n                      at ClientRequest.<anonymous> (/home/hasib/.cache/Cypress/7.5.0/Cypress/resources/app/packages/server/node_modules/@cypress/request/request.js:816:19)\n                      at Object.onceWrapper (events.js:421:28)\n                      at ClientRequest.emit (events.js:315:20)\n                      at TLSSocket.emitRequestTimeout (_http_client.js:784:9)\n                      at Object.onceWrapper (events.js:421:28)\n                      at TLSSocket.emit (events.js:327:22)\n                      at TLSSocket.Socket._onTimeout (net.js:483:8)\n                      at listOnTimeout (internal/timers.js:554:17)\n                      at processTimers (internal/timers.js:497:7)\n                  ",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-010 Search and count number of ads"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fbe63acbbde5ef0.json",
+  "parameterValues" : [ ]
+}
