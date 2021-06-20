@@ -1,0 +1,44 @@
+{
+  "uid" : "c3c9a7fa32f40066",
+  "name" : "TC-010 Search and count number of ads",
+  "fullName" : "Testing Bikroy.com.TC-010 Search and count number of ads",
+  "historyId" : "dc2c988899b006f4c819ae0b10cb4441",
+  "time" : {
+    "start" : 1624170406969,
+    "stop" : 1624170412704,
+    "duration" : 5735
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-010 Search and count number of ads"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3c9a7fa32f40066.json",
+  "parameterValues" : [ ]
+}

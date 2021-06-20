@@ -1,0 +1,180 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624170351458' stop='1624170499911'>
+    <name>Testing Bikroy.com</name>
+    <title>Testing Bikroy.com</title>
+    <test-cases>
+        <test-case start='1624170351459' status='passed' stop='1624170358440'>
+            <name>TC-001: Open Bikroy Site in Browser</name>
+            <title>TC-001: Open Bikroy Site in Browser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170358449' status='passed' stop='1624170365145'>
+            <name>TC-003 Login</name>
+            <title>TC-003 Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170365162' status='broken' stop='1624170370493'>
+            <name>TC-004 Invalid Password</name>
+            <title>TC-004 Invalid Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;a href="/en/users/non-pwa/login" rel="nofollow" target="">...&lt;/a>`
+                
+                This element `&lt;a>` is not visible because its parent `&lt;li.ui-nav-item.nav-login>` has CSS property: `display: none`
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:
+                
+                `&lt;a href="/en/users/non-pwa/login" rel="nofollow" target="">...&lt;/a>`
+                
+                This element `&lt;a>` is not visible because its parent `&lt;li.ui-nav-item.nav-login>` has CSS property: `display: none`
+                
+                Fix this problem, or use `{force: true}` to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at $Cy.ensureVisibility (https://bikroy.com/__cypress/runner/cypress_runner.js:142412:24)
+                    at runAllChecks (https://bikroy.com/__cypress/runner/cypress_runner.js:131087:14)
+                    at retryActionability (https://bikroy.com/__cypress/runner/cypress_runner.js:131141:16)
+                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)
+                    at Function.Promise.attempt.Promise.try (https://bikroy.com/__cypress/runner/cypress_runner.js:8072:29)
+                    at tryFn (https://bikroy.com/__cypress/runner/cypress_runner.js:147090:21)
+                    at whenStable (https://bikroy.com/__cypress/runner/cypress_runner.js:147128:12)
+                    at https://bikroy.com/__cypress/runner/cypress_runner.js:146620:16
+                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)
+                    at Promise._settlePromiseFromHandler (https://bikroy.com/__cypress/runner/cypress_runner.js:8733:31)
+                    at Promise._settlePromise (https://bikroy.com/__cypress/runner/cypress_runner.js:8790:18)
+                    at Promise._settlePromise0 (https://bikroy.com/__cypress/runner/cypress_runner.js:8835:10)
+                    at Promise._settlePromises (https://bikroy.com/__cypress/runner/cypress_runner.js:8915:18)
+                    at Promise._fulfill (https://bikroy.com/__cypress/runner/cypress_runner.js:8859:18)
+                    at https://bikroy.com/__cypress/runner/cypress_runner.js:10473:46
+                From Your Spec Code:
+                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroy_demo.REMOVED.js:2254:27)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624170370543' status='passed' stop='1624170376083'>
+            <name>TC-005 Show all ads</name>
+            <title>TC-005 Show all ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170376103' status='passed' stop='1624170383901'>
+            <name>TC-006 Show all urgent ads</name>
+            <title>TC-006 Show all urgent ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170383933' status='passed' stop='1624170390946'>
+            <name>TC-007 Display ads by Category</name>
+            <title>TC-007 Display ads by Category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170390961' status='passed' stop='1624170399018'>
+            <name>TC-008 Show ads by location</name>
+            <title>TC-008 Show ads by location</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170399033' status='passed' stop='1624170406939'>
+            <name>TC-009 Ads Search</name>
+            <title>TC-009 Ads Search</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170406969' status='passed' stop='1624170412704'>
+            <name>TC-010 Search and count number of ads</name>
+            <title>TC-010 Search and count number of ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170412734' status='passed' stop='1624170418668'>
+            <name>TC-011 Get lowest price</name>
+            <title>TC-011 Get lowest price</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170418699' status='passed' stop='1624170429007'>
+            <name>TC-013 Show to product details</name>
+            <title>TC-013 Show to product details</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170429044' status='passed' stop='1624170437960'>
+            <name>TC-014 Show phone number</name>
+            <title>TC-014 Show phone number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170437992' status='passed' stop='1624170447318'>
+            <name>TC-015 Assert product description</name>
+            <title>TC-015 Assert product description</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170447342' status='passed' stop='1624170461786'>
+            <name>TC-018 Add product on Favorites</name>
+            <title>TC-018 Add product on Favorites</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170461828' status='passed' stop='1624170470798'>
+            <name>TC-019 Show to favorites product list</name>
+            <title>TC-019 Show to favorites product list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170470806' status='passed' stop='1624170472273'>
+            <name>TC-020 Assert Browse our top category</name>
+            <title>TC-020 Assert Browse our top category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170472294' status='passed' stop='1624170499910'>
+            <name>TC-021 Open all Browse our top category link</name>
+            <title>TC-021 Open all Browse our top category link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

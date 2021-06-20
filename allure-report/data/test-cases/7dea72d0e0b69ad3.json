@@ -1,0 +1,46 @@
+{
+  "uid" : "7dea72d0e0b69ad3",
+  "name" : "TC-004 Invalid Password",
+  "fullName" : "Testing Bikroy.com.TC-004 Invalid Password",
+  "historyId" : "423599c47e4bb4e1ad2821f2b60317de",
+  "time" : {
+    "start" : 1624170365162,
+    "stop" : 1624170370493,
+    "duration" : 5331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a href=\"/en/users/non-pwa/login\" rel=\"nofollow\" target=\"\">...</a>`\n                \n                This element `<a>` is not visible because its parent `<li.ui-nav-item.nav-login>` has CSS property: `display: none`\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+  "statusTrace" : "CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a href=\"/en/users/non-pwa/login\" rel=\"nofollow\" target=\"\">...</a>`\n                \n                This element `<a>` is not visible because its parent `<li.ui-nav-item.nav-login>` has CSS property: `display: none`\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with\n                    at $Cy.ensureVisibility (https://bikroy.com/__cypress/runner/cypress_runner.js:142412:24)\n                    at runAllChecks (https://bikroy.com/__cypress/runner/cypress_runner.js:131087:14)\n                    at retryActionability (https://bikroy.com/__cypress/runner/cypress_runner.js:131141:16)\n                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)\n                    at Function.Promise.attempt.Promise.try (https://bikroy.com/__cypress/runner/cypress_runner.js:8072:29)\n                    at tryFn (https://bikroy.com/__cypress/runner/cypress_runner.js:147090:21)\n                    at whenStable (https://bikroy.com/__cypress/runner/cypress_runner.js:147128:12)\n                    at https://bikroy.com/__cypress/runner/cypress_runner.js:146620:16\n                    at tryCatcher (https://bikroy.com/__cypress/runner/cypress_runner.js:10798:23)\n                    at Promise._settlePromiseFromHandler (https://bikroy.com/__cypress/runner/cypress_runner.js:8733:31)\n                    at Promise._settlePromise (https://bikroy.com/__cypress/runner/cypress_runner.js:8790:18)\n                    at Promise._settlePromise0 (https://bikroy.com/__cypress/runner/cypress_runner.js:8835:10)\n                    at Promise._settlePromises (https://bikroy.com/__cypress/runner/cypress_runner.js:8915:18)\n                    at Promise._fulfill (https://bikroy.com/__cypress/runner/cypress_runner.js:8859:18)\n                    at https://bikroy.com/__cypress/runner/cypress_runner.js:10473:46\n                From Your Spec Code:\n                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroy_demo.REMOVED.js:2254:27)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-004 Invalid Password"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7dea72d0e0b69ad3.json",
+  "parameterValues" : [ ]
+}

@@ -3,222 +3,248 @@
   "children" : [ {
     "name" : "Testing Bikroy.com",
     "children" : [ {
-      "name" : "TC-001: Open Bikroy Site in Browser",
-      "uid" : "30fdfbdd5bd8429e",
-      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623827041209,
-        "stop" : 1623827048876,
-        "duration" : 7667
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC-003 Login",
-      "uid" : "61226c2edc7892e0",
-      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623827048889,
-        "stop" : 1623827055721,
-        "duration" : 6832
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC-004 Invalid Password",
-      "uid" : "77fc80d0c3c5aafa",
-      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623827055737,
-        "stop" : 1623827060104,
-        "duration" : 4367
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC-005 Show all ads",
-      "uid" : "36c10cbf4c1f1622",
-      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623827060111,
-        "stop" : 1623827066709,
-        "duration" : 6598
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "TC-006 Show all urgent ads",
-      "uid" : "73f3309184919102",
-      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1623827066717,
-        "stop" : 1623827076237,
-        "duration" : 9520
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
       "name" : "TC-007 Display ads by Category",
-      "uid" : "83c7b84f4894d1bb",
+      "uid" : "17bee9d541ecfdf5",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827076248,
-        "stop" : 1623827084359,
-        "duration" : 8111
+        "start" : 1624170383933,
+        "stop" : 1624170390946,
+        "duration" : 7013
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-008 Show ads by location",
-      "uid" : "5bbc2e9313e40ea8",
+      "uid" : "6ca78e30305853c0",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827084374,
-        "stop" : 1623827092269,
-        "duration" : 7895
+        "start" : 1624170390961,
+        "stop" : 1624170399018,
+        "duration" : 8057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-001: Open Bikroy Site in Browser",
+      "uid" : "ee8f7a0df2f2626a",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170549869,
+        "stop" : 1624170554998,
+        "duration" : 5129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-003 Login",
+      "uid" : "6ca2114cc0aecdaa",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170555011,
+        "stop" : 1624170563089,
+        "duration" : 8078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-004 Invalid Password",
+      "uid" : "24b5cee2ae11b0ad",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170563105,
+        "stop" : 1624170568663,
+        "duration" : 5558
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-005 Show all ads",
+      "uid" : "9c68ea907ec2a6b8",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170568678,
+        "stop" : 1624170575844,
+        "duration" : 7166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-006 Show all urgent ads",
+      "uid" : "13c70d757029e7a1",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170575851,
+        "stop" : 1624170582378,
+        "duration" : 6527
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-007 Display ads by Category 'Mobile'",
+      "uid" : "ac03c099e7f3a72b",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170582384,
+        "stop" : 1624170589793,
+        "duration" : 7409
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TC-008 Display ads by Location 'Dhaka'",
+      "uid" : "2fe5e0c44be6dc30",
+      "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170589800,
+        "stop" : 1624170596984,
+        "duration" : 7184
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-009 Ads Search",
-      "uid" : "3caf42c6befbce3c",
+      "uid" : "45c591e4c98a917d",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827092282,
-        "stop" : 1623827099223,
-        "duration" : 6941
+        "start" : 1624170597015,
+        "stop" : 1624170605376,
+        "duration" : 8361
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-010 Search and count number of ads",
-      "uid" : "e1fde84341068f1d",
+      "uid" : "f24db39f81ad8514",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827099241,
-        "stop" : 1623827104781,
-        "duration" : 5540
+        "start" : 1624170605386,
+        "stop" : 1624170610569,
+        "duration" : 5183
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-011 Get lowest price",
-      "uid" : "f851aa9be814a8c3",
+      "uid" : "1fdcada842743977",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1623827104801,
-        "stop" : 1623827110349,
-        "duration" : 5548
+        "start" : 1624170610588,
+        "stop" : 1624170615434,
+        "duration" : 4846
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-013 Show to product details",
-      "uid" : "f4af3d8aac13c11",
+      "uid" : "7e9a7d900504695c",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827110377,
-        "stop" : 1623827120442,
-        "duration" : 10065
+        "start" : 1624170615499,
+        "stop" : 1624170622311,
+        "duration" : 6812
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-014 Show phone number",
-      "uid" : "79c1c6efc06b2457",
+      "uid" : "549ba19189986562",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827120466,
-        "stop" : 1623827129822,
-        "duration" : 9356
+        "start" : 1624170622373,
+        "stop" : 1624170632062,
+        "duration" : 9689
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-015 Assert product description",
-      "uid" : "963b4d3262a1d7fd",
+      "uid" : "913a7ed8a82528f",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827129841,
-        "stop" : 1623827138036,
-        "duration" : 8195
+        "start" : 1624170632088,
+        "stop" : 1624170641352,
+        "duration" : 9264
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-018 Add product on Favorites",
-      "uid" : "b2f339f709d51583",
+      "uid" : "4cddeb5f7df0eb04",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827138056,
-        "stop" : 1623827151051,
-        "duration" : 12995
+        "start" : 1624170641391,
+        "stop" : 1624170654165,
+        "duration" : 12774
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-019 Show to favorites product list",
-      "uid" : "d69eb101a8653f3a",
+      "uid" : "911d8c4598ca73cf",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827151067,
-        "stop" : 1623827162377,
-        "duration" : 11310
+        "start" : 1624170654190,
+        "stop" : 1624170661888,
+        "duration" : 7698
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-020 Assert Browse our top category",
-      "uid" : "b1fa86b882637409",
+      "uid" : "151b9b96a7a3495e",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827162395,
-        "stop" : 1623827164067,
-        "duration" : 1672
+        "start" : 1624170661903,
+        "stop" : 1624170663496,
+        "duration" : 1593
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "TC-021 Open all Browse our top category link",
-      "uid" : "eefab470798b325d",
+      "uid" : "5388457e527a3468",
       "parentUid" : "30c421852c68aa1e57a7eb6c57f25ee2",
       "status" : "passed",
       "time" : {
-        "start" : 1623827164082,
-        "stop" : 1623827202626,
-        "duration" : 38544
+        "start" : 1624170663501,
+        "stop" : 1624170678044,
+        "duration" : 14543
       },
       "flaky" : false,
       "newFailed" : false,

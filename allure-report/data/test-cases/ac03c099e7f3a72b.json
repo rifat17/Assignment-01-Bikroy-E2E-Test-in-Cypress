@@ -1,0 +1,46 @@
+{
+  "uid" : "ac03c099e7f3a72b",
+  "name" : "TC-007 Display ads by Category 'Mobile'",
+  "fullName" : "Testing Bikroy.com.TC-007 Display ads by Category 'Mobile'",
+  "historyId" : "db87aa8646cfcea3e4b503e515cc5542",
+  "time" : {
+    "start" : 1624170582384,
+    "stop" : 1624170589793,
+    "duration" : 7409
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-007 Display ads by Category 'Mobile'"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac03c099e7f3a72b.json",
+  "parameterValues" : [ ]
+}

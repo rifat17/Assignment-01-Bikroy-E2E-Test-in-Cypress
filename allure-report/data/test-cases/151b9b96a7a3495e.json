@@ -1,0 +1,54 @@
+{
+  "uid" : "151b9b96a7a3495e",
+  "name" : "TC-020 Assert Browse our top category",
+  "fullName" : "Testing Bikroy.com.TC-020 Assert Browse our top category",
+  "historyId" : "4312ee52f26da96a0eed616a5df49ef",
+  "time" : {
+    "start" : 1624170661903,
+    "stop" : 1624170663496,
+    "duration" : 1593
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-020 Assert Browse our top category"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b14c0f6c1ab3b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170470806,
+        "stop" : 1624170472273,
+        "duration" : 1467
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "151b9b96a7a3495e.json",
+  "parameterValues" : [ ]
+}

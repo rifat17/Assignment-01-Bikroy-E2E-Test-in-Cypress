@@ -1,443 +1,443 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "TC-015 Assert product description",
-    "uid" : "963b4d3262a1d7fd",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827129841,
-      "stop" : 1623827138036,
-      "duration" : 8195
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-001: Open Bikroy Site in Browser",
-    "uid" : "b52e4ebaec632078",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826557409,
-      "stop" : 1623826566514,
-      "duration" : 9105
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-018 Add product on Favorites",
-    "uid" : "f3c7de0cea8ff714",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826724251,
-      "stop" : 1623826749066,
-      "duration" : 24815
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-008 Show ads by location",
-    "uid" : "5bbc2e9313e40ea8",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827084374,
-      "stop" : 1623827092269,
-      "duration" : 7895
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-005 Show all ads",
-    "uid" : "81a8cf7c9adfe61e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826584392,
-      "stop" : 1623826597694,
-      "duration" : 13302
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "TC-006 Show all urgent ads",
-    "uid" : "a794a50eec03b3db",
+    "uid" : "13c70d757029e7a1",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623826597736,
-      "stop" : 1623826609106,
-      "duration" : 11370
+      "start" : 1624170575851,
+      "stop" : 1624170582378,
+      "duration" : 6527
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-013 Show to product details",
+    "uid" : "4f53efd76cadbc82",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170418699,
+      "stop" : 1624170429007,
+      "duration" : 10308
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-021 Open all Browse our top category link",
+    "uid" : "96bb4d129db3f72c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170472294,
+      "stop" : 1624170499910,
+      "duration" : 27616
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-009 Ads Search",
+    "uid" : "45c591e4c98a917d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170597015,
+      "stop" : 1624170605376,
+      "duration" : 8361
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-015 Assert product description",
+    "uid" : "db7b12f761093ca",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170437992,
+      "stop" : 1624170447318,
+      "duration" : 9326
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "TC-019 Show to favorites product list",
-    "uid" : "e22d29ce7ec018ec",
+    "uid" : "9362d91e54e1a841",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623826749109,
-      "stop" : 1623826758952,
-      "duration" : 9843
+      "start" : 1624170461828,
+      "stop" : 1624170470798,
+      "duration" : 8970
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC-007 Display ads by Category",
-    "uid" : "a021245f83d09ac3",
+    "name" : "TC-001: Open Bikroy Site in Browser",
+    "uid" : "ee8f7a0df2f2626a",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623826609148,
-      "stop" : 1623826617696,
-      "duration" : 8548
+      "start" : 1624170549869,
+      "stop" : 1624170554998,
+      "duration" : 5129
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC-007 Display ads by Category",
-    "uid" : "83c7b84f4894d1bb",
+    "name" : "TC-009 Ads Search",
+    "uid" : "201ad6cfb46c2d82",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623827076248,
-      "stop" : 1623827084359,
-      "duration" : 8111
+      "start" : 1624170399033,
+      "stop" : 1624170406939,
+      "duration" : 7906
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC-014 Show phone number",
-    "uid" : "79c1c6efc06b2457",
+    "name" : "TC-008 Show ads by location",
+    "uid" : "6ca78e30305853c0",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623827120466,
-      "stop" : 1623827129822,
-      "duration" : 9356
+      "start" : 1624170390961,
+      "stop" : 1624170399018,
+      "duration" : 8057
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC-003 Login",
-    "uid" : "8a71093ae840cb28",
+    "name" : "TC-005 Show all ads",
+    "uid" : "d475cb8f71f49128",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623826566551,
-      "stop" : 1623826577983,
-      "duration" : 11432
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-011 Get lowest price",
-    "uid" : "9c8fbac3c34d6016",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826670893,
-      "stop" : 1623826681896,
-      "duration" : 11003
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-010 Search and count number of ads",
-    "uid" : "e1fde84341068f1d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827099241,
-      "stop" : 1623827104781,
+      "start" : 1624170370543,
+      "stop" : 1624170376083,
       "duration" : 5540
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
+    "name" : "TC-007 Display ads by Category 'Mobile'",
+    "uid" : "ac03c099e7f3a72b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170582384,
+      "stop" : 1624170589793,
+      "duration" : 7409
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
     "name" : "TC-014 Show phone number",
-    "uid" : "9b1e591edb9913f0",
+    "uid" : "549ba19189986562",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623826697475,
-      "stop" : 1623826712047,
-      "duration" : 14572
+      "start" : 1624170622373,
+      "stop" : 1624170632062,
+      "duration" : 9689
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC-020 Assert Browse our top category",
-    "uid" : "b1fa86b882637409",
+    "name" : "TC-014 Show phone number",
+    "uid" : "663e365d3deeb193",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623827162395,
-      "stop" : 1623827164067,
-      "duration" : 1672
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-003 Login",
-    "uid" : "61226c2edc7892e0",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827048889,
-      "stop" : 1623827055721,
-      "duration" : 6832
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-006 Show all urgent ads",
-    "uid" : "73f3309184919102",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827066717,
-      "stop" : 1623827076237,
-      "duration" : 9520
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-005 Show all ads",
-    "uid" : "36c10cbf4c1f1622",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827060111,
-      "stop" : 1623827066709,
-      "duration" : 6598
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-021 Open all Browse our top category link",
-    "uid" : "eefab470798b325d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827164082,
-      "stop" : 1623827202626,
-      "duration" : 38544
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-004 Invalid Password",
-    "uid" : "94d0b0b0e203c6dc",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1623826578017,
-      "stop" : 1623826584305,
-      "duration" : 6288
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-015 Assert product description",
-    "uid" : "5b22fb32e97bc179",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826712116,
-      "stop" : 1623826724199,
-      "duration" : 12083
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-019 Show to favorites product list",
-    "uid" : "d69eb101a8653f3a",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827151067,
-      "stop" : 1623827162377,
-      "duration" : 11310
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-009 Ads Search",
-    "uid" : "3caf42c6befbce3c",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827092282,
-      "stop" : 1623827099223,
-      "duration" : 6941
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-013 Show to product details",
-    "uid" : "740b9bd388847649",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826681946,
-      "stop" : 1623826697424,
-      "duration" : 15478
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-020 Assert Browse our top category",
-    "uid" : "120ea2db97bc7cf4",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826758972,
-      "stop" : 1623826760206,
-      "duration" : 1234
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-001: Open Bikroy Site in Browser",
-    "uid" : "30fdfbdd5bd8429e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827041209,
-      "stop" : 1623827048876,
-      "duration" : 7667
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-011 Get lowest price",
-    "uid" : "f851aa9be814a8c3",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827104801,
-      "stop" : 1623827110349,
-      "duration" : 5548
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-004 Invalid Password",
-    "uid" : "77fc80d0c3c5aafa",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827055737,
-      "stop" : 1623827060104,
-      "duration" : 4367
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-009 Ads Search",
-    "uid" : "b46982e9af70906b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826629290,
-      "stop" : 1623826639434,
-      "duration" : 10144
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-013 Show to product details",
-    "uid" : "f4af3d8aac13c11",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827110377,
-      "stop" : 1623827120442,
-      "duration" : 10065
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-021 Open all Browse our top category link",
-    "uid" : "2151a56fb4430046",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623826760240,
-      "stop" : 1623826803550,
-      "duration" : 43310
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "TC-018 Add product on Favorites",
-    "uid" : "b2f339f709d51583",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1623827138056,
-      "stop" : 1623827151051,
-      "duration" : 12995
+      "start" : 1624170429044,
+      "stop" : 1624170437960,
+      "duration" : 8916
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "TC-010 Search and count number of ads",
-    "uid" : "2fbe63acbbde5ef0",
+    "uid" : "c3c9a7fa32f40066",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1623826639469,
-      "stop" : 1623826670829,
-      "duration" : 31360
+      "start" : 1624170406969,
+      "stop" : 1624170412704,
+      "duration" : 5735
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
-    "name" : "TC-008 Show ads by location",
-    "uid" : "caf9ccbe4b3baa66",
+    "name" : "TC-015 Assert product description",
+    "uid" : "913a7ed8a82528f",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1623826617740,
-      "stop" : 1623826629247,
-      "duration" : 11507
+      "start" : 1624170632088,
+      "stop" : 1624170641352,
+      "duration" : 9264
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-006 Show all urgent ads",
+    "uid" : "ae108186245fa02f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170376103,
+      "stop" : 1624170383901,
+      "duration" : 7798
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-004 Invalid Password",
+    "uid" : "7dea72d0e0b69ad3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1624170365162,
+      "stop" : 1624170370493,
+      "duration" : 5331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-004 Invalid Password",
+    "uid" : "24b5cee2ae11b0ad",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170563105,
+      "stop" : 1624170568663,
+      "duration" : 5558
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-011 Get lowest price",
+    "uid" : "1fdcada842743977",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1624170610588,
+      "stop" : 1624170615434,
+      "duration" : 4846
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-003 Login",
+    "uid" : "6ca2114cc0aecdaa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170555011,
+      "stop" : 1624170563089,
+      "duration" : 8078
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-011 Get lowest price",
+    "uid" : "26509bdae85f5fe5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170412734,
+      "stop" : 1624170418668,
+      "duration" : 5934
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-007 Display ads by Category",
+    "uid" : "17bee9d541ecfdf5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170383933,
+      "stop" : 1624170390946,
+      "duration" : 7013
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-018 Add product on Favorites",
+    "uid" : "a403107310d26477",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170447342,
+      "stop" : 1624170461786,
+      "duration" : 14444
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-013 Show to product details",
+    "uid" : "7e9a7d900504695c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170615499,
+      "stop" : 1624170622311,
+      "duration" : 6812
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-019 Show to favorites product list",
+    "uid" : "911d8c4598ca73cf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170654190,
+      "stop" : 1624170661888,
+      "duration" : 7698
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-021 Open all Browse our top category link",
+    "uid" : "5388457e527a3468",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170663501,
+      "stop" : 1624170678044,
+      "duration" : 14543
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-001: Open Bikroy Site in Browser",
+    "uid" : "ff10074a8c41b5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170351459,
+      "stop" : 1624170358440,
+      "duration" : 6981
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-010 Search and count number of ads",
+    "uid" : "f24db39f81ad8514",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170605386,
+      "stop" : 1624170610569,
+      "duration" : 5183
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-003 Login",
+    "uid" : "46739e74a3bf10a8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170358449,
+      "stop" : 1624170365145,
+      "duration" : 6696
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-005 Show all ads",
+    "uid" : "9c68ea907ec2a6b8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170568678,
+      "stop" : 1624170575844,
+      "duration" : 7166
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-008 Display ads by Location 'Dhaka'",
+    "uid" : "2fe5e0c44be6dc30",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170589800,
+      "stop" : 1624170596984,
+      "duration" : 7184
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-020 Assert Browse our top category",
+    "uid" : "5b14c0f6c1ab3b1c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170470806,
+      "stop" : 1624170472273,
+      "duration" : 1467
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-020 Assert Browse our top category",
+    "uid" : "151b9b96a7a3495e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170661903,
+      "stop" : 1624170663496,
+      "duration" : 1593
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "TC-018 Add product on Favorites",
+    "uid" : "4cddeb5f7df0eb04",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1624170641391,
+      "stop" : 1624170654165,
+      "duration" : 12774
     },
     "flaky" : false,
     "newFailed" : false,

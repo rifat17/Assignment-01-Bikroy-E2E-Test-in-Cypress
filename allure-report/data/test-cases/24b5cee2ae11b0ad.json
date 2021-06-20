@@ -1,0 +1,55 @@
+{
+  "uid" : "24b5cee2ae11b0ad",
+  "name" : "TC-004 Invalid Password",
+  "fullName" : "Testing Bikroy.com.TC-004 Invalid Password",
+  "historyId" : "423599c47e4bb4e1ad2821f2b60317de",
+  "time" : {
+    "start" : 1624170563105,
+    "stop" : 1624170568663,
+    "duration" : 5558
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-004 Invalid Password"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7dea72d0e0b69ad3",
+      "status" : "broken",
+      "statusDetails" : "Timed out retrying after 4050ms: `cy.click()` failed because this element is not visible:\n                \n                `<a href=\"/en/users/non-pwa/login\" rel=\"nofollow\" target=\"\">...</a>`\n                \n                This element `<a>` is not visible because its parent `<li.ui-nav-item.nav-login>` has CSS property: `display: none`\n                \n                Fix this problem, or use `{force: true}` to disable error checking.\n                \n                https://on.cypress.io/element-cannot-be-interacted-with",
+      "time" : {
+        "start" : 1624170365162,
+        "stop" : 1624170370493,
+        "duration" : 5331
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24b5cee2ae11b0ad.json",
+  "parameterValues" : [ ]
+}

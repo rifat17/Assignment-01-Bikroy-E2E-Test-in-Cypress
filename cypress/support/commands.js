@@ -26,15 +26,16 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
+import HomePage from "../integration/POM/pageObjects/HomePage";
+import LoginPage from "../integration/POM/pageObjects/Login";
+
 Cypress.Commands.add("login", (email, password) => {
   console.log("login");
-  cy.visit("https://bikroy.com/en");
-  cy.contains("Log in").click();
-  cy.contains("Continue with Email").click();
-  cy.get("input[name=email]").type(email);
-  cy.get("input[name=password]").type(password);
-  cy.get("button[type=submit]").contains("Login").as("loginBtn");
-  cy.get("@loginBtn").click();
+  const home = new HomePage();
+  home.visit();
+  home.getLoginFromNavBarHtmlElement().click();
+  const loginPage = new LoginPage();
+  loginPage.login(email, password);
 });
 
 Cypress.Commands.add("logout", () => {

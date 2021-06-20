@@ -5,11 +5,11 @@
     "name" : "Testing Bikroy.com",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 19
     }
   } ]
 }

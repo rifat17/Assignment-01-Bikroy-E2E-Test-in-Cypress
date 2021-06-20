@@ -1,0 +1,54 @@
+{
+  "uid" : "5388457e527a3468",
+  "name" : "TC-021 Open all Browse our top category link",
+  "fullName" : "Testing Bikroy.com.TC-021 Open all Browse our top category link",
+  "historyId" : "f7f596764724fe79d3f6992b97626049",
+  "time" : {
+    "start" : 1624170663501,
+    "stop" : 1624170678044,
+    "duration" : 14543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-021 Open all Browse our top category link"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "96bb4d129db3f72c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170472294,
+        "stop" : 1624170499910,
+        "duration" : 27616
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5388457e527a3468.json",
+  "parameterValues" : [ ]
+}

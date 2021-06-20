@@ -1,0 +1,54 @@
+{
+  "uid" : "6ca2114cc0aecdaa",
+  "name" : "TC-003 Login",
+  "fullName" : "Testing Bikroy.com.TC-003 Login",
+  "historyId" : "6230a5862e079ffe888a6b78f69a845f",
+  "time" : {
+    "start" : 1624170555011,
+    "stop" : 1624170563089,
+    "duration" : 8078
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-003 Login"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "46739e74a3bf10a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170358449,
+        "stop" : 1624170365145,
+        "duration" : 6696
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ca2114cc0aecdaa.json",
+  "parameterValues" : [ ]
+}

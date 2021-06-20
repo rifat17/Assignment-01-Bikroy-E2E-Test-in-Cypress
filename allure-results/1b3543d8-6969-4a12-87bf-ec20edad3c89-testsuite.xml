@@ -1,0 +1,156 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1624170549869' stop='1624170678044'>
+    <name>Testing Bikroy.com</name>
+    <title>Testing Bikroy.com</title>
+    <test-cases>
+        <test-case start='1624170549869' status='passed' stop='1624170554998'>
+            <name>TC-001: Open Bikroy Site in Browser</name>
+            <title>TC-001: Open Bikroy Site in Browser</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170555011' status='passed' stop='1624170563089'>
+            <name>TC-003 Login</name>
+            <title>TC-003 Login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170563105' status='passed' stop='1624170568663'>
+            <name>TC-004 Invalid Password</name>
+            <title>TC-004 Invalid Password</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170568678' status='passed' stop='1624170575844'>
+            <name>TC-005 Show all ads</name>
+            <title>TC-005 Show all ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170575851' status='passed' stop='1624170582378'>
+            <name>TC-006 Show all urgent ads</name>
+            <title>TC-006 Show all urgent ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170582384' status='passed' stop='1624170589793'>
+            <name>TC-007 Display ads by Category 'Mobile'</name>
+            <title>TC-007 Display ads by Category 'Mobile'</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170589800' status='passed' stop='1624170596984'>
+            <name>TC-008 Display ads by Location 'Dhaka'</name>
+            <title>TC-008 Display ads by Location 'Dhaka'</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170597015' status='passed' stop='1624170605376'>
+            <name>TC-009 Ads Search</name>
+            <title>TC-009 Ads Search</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170605386' status='passed' stop='1624170610569'>
+            <name>TC-010 Search and count number of ads</name>
+            <title>TC-010 Search and count number of ads</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170610588' status='broken' stop='1624170615434'>
+            <name>TC-011 Get lowest price</name>
+            <title>TC-011 Get lowest price</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.
+                
+                https://on.cypress.io/click</message>
+                <stack-trace>CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.
+                
+                https://on.cypress.io/click
+                    at mouseAction (https://bikroy.com/__cypress/runner/cypress_runner.js:133001:17)
+                    at Context.click (https://bikroy.com/__cypress/runner/cypress_runner.js:133180:14)
+                    at Context.&lt;anonymous> (https://bikroy.com/__cypress/runner/cypress_runner.js:151591:21)
+                From Your Spec Code:
+                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroyPOM.spec.js:2473:49)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1624170615499' status='passed' stop='1624170622311'>
+            <name>TC-013 Show to product details</name>
+            <title>TC-013 Show to product details</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170622373' status='passed' stop='1624170632062'>
+            <name>TC-014 Show phone number</name>
+            <title>TC-014 Show phone number</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170632088' status='passed' stop='1624170641352'>
+            <name>TC-015 Assert product description</name>
+            <title>TC-015 Assert product description</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170641391' status='passed' stop='1624170654165'>
+            <name>TC-018 Add product on Favorites</name>
+            <title>TC-018 Add product on Favorites</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170654190' status='passed' stop='1624170661888'>
+            <name>TC-019 Show to favorites product list</name>
+            <title>TC-019 Show to favorites product list</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170661903' status='passed' stop='1624170663496'>
+            <name>TC-020 Assert Browse our top category</name>
+            <title>TC-020 Assert Browse our top category</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1624170663501' status='passed' stop='1624170678044'>
+            <name>TC-021 Open all Browse our top category link</name>
+            <title>TC-021 Open all Browse our top category link</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

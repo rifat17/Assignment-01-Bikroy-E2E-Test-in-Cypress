@@ -1,0 +1,60 @@
+{
+  "uid" : "1fdcada842743977",
+  "name" : "TC-011 Get lowest price",
+  "fullName" : "Testing Bikroy.com.TC-011 Get lowest price",
+  "historyId" : "dca1f4fa8bfbc2b55bf6a31ea1aa9756",
+  "time" : {
+    "start" : 1624170610588,
+    "stop" : 1624170615434,
+    "duration" : 4846
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "`cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n                \n                https://on.cypress.io/click",
+  "statusTrace" : "CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n                \n                https://on.cypress.io/click\n                    at mouseAction (https://bikroy.com/__cypress/runner/cypress_runner.js:133001:17)\n                    at Context.click (https://bikroy.com/__cypress/runner/cypress_runner.js:133180:14)\n                    at Context.<anonymous> (https://bikroy.com/__cypress/runner/cypress_runner.js:151591:21)\n                From Your Spec Code:\n                    at Context.eval (https://bikroy.com/__cypress/tests?p=cypress/integration/bikroyPOM.spec.js:2473:49)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-011 Get lowest price"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "26509bdae85f5fe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170412734,
+        "stop" : 1624170418668,
+        "duration" : 5934
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1fdcada842743977.json",
+  "parameterValues" : [ ]
+}

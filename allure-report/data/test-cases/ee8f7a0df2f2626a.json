@@ -1,0 +1,54 @@
+{
+  "uid" : "ee8f7a0df2f2626a",
+  "name" : "TC-001: Open Bikroy Site in Browser",
+  "fullName" : "Testing Bikroy.com.TC-001: Open Bikroy Site in Browser",
+  "historyId" : "e02340aed8465f7bb27e4b22a67e6802",
+  "time" : {
+    "start" : 1624170549869,
+    "stop" : 1624170554998,
+    "duration" : 5129
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-001: Open Bikroy Site in Browser"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ff10074a8c41b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1624170351459,
+        "stop" : 1624170358440,
+        "duration" : 6981
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee8f7a0df2f2626a.json",
+  "parameterValues" : [ ]
+}

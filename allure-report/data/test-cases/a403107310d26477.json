@@ -1,0 +1,44 @@
+{
+  "uid" : "a403107310d26477",
+  "name" : "TC-018 Add product on Favorites",
+  "fullName" : "Testing Bikroy.com.TC-018 Add product on Favorites",
+  "historyId" : "630fb96297a46497dc8d6613d7e63bf5",
+  "time" : {
+    "start" : 1624170447342,
+    "stop" : 1624170461786,
+    "duration" : 14444
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-018 Add product on Favorites"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a403107310d26477.json",
+  "parameterValues" : [ ]
+}

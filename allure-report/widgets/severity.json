@@ -1,170 +1,190 @@
 [ {
-  "uid" : "963b4d3262a1d7fd",
-  "name" : "TC-015 Assert product description",
-  "time" : {
-    "start" : 1623827129841,
-    "stop" : 1623827138036,
-    "duration" : 8195
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "83c7b84f4894d1bb",
-  "name" : "TC-007 Display ads by Category",
-  "time" : {
-    "start" : 1623827076248,
-    "stop" : 1623827084359,
-    "duration" : 8111
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b2f339f709d51583",
-  "name" : "TC-018 Add product on Favorites",
-  "time" : {
-    "start" : 1623827138056,
-    "stop" : 1623827151051,
-    "duration" : 12995
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "79c1c6efc06b2457",
-  "name" : "TC-014 Show phone number",
-  "time" : {
-    "start" : 1623827120466,
-    "stop" : 1623827129822,
-    "duration" : 9356
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eefab470798b325d",
-  "name" : "TC-021 Open all Browse our top category link",
-  "time" : {
-    "start" : 1623827164082,
-    "stop" : 1623827202626,
-    "duration" : 38544
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5bbc2e9313e40ea8",
-  "name" : "TC-008 Show ads by location",
-  "time" : {
-    "start" : 1623827084374,
-    "stop" : 1623827092269,
-    "duration" : 7895
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1fa86b882637409",
-  "name" : "TC-020 Assert Browse our top category",
-  "time" : {
-    "start" : 1623827162395,
-    "stop" : 1623827164067,
-    "duration" : 1672
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77fc80d0c3c5aafa",
-  "name" : "TC-004 Invalid Password",
-  "time" : {
-    "start" : 1623827055737,
-    "stop" : 1623827060104,
-    "duration" : 4367
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f4af3d8aac13c11",
-  "name" : "TC-013 Show to product details",
-  "time" : {
-    "start" : 1623827110377,
-    "stop" : 1623827120442,
-    "duration" : 10065
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "61226c2edc7892e0",
+  "uid" : "6ca2114cc0aecdaa",
   "name" : "TC-003 Login",
   "time" : {
-    "start" : 1623827048889,
-    "stop" : 1623827055721,
-    "duration" : 6832
+    "start" : 1624170555011,
+    "stop" : 1624170563089,
+    "duration" : 8078
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f851aa9be814a8c3",
-  "name" : "TC-011 Get lowest price",
-  "time" : {
-    "start" : 1623827104801,
-    "stop" : 1623827110349,
-    "duration" : 5548
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "73f3309184919102",
-  "name" : "TC-006 Show all urgent ads",
-  "time" : {
-    "start" : 1623827066717,
-    "stop" : 1623827076237,
-    "duration" : 9520
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e1fde84341068f1d",
-  "name" : "TC-010 Search and count number of ads",
-  "time" : {
-    "start" : 1623827099241,
-    "stop" : 1623827104781,
-    "duration" : 5540
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "36c10cbf4c1f1622",
-  "name" : "TC-005 Show all ads",
-  "time" : {
-    "start" : 1623827060111,
-    "stop" : 1623827066709,
-    "duration" : 6598
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "30fdfbdd5bd8429e",
-  "name" : "TC-001: Open Bikroy Site in Browser",
-  "time" : {
-    "start" : 1623827041209,
-    "stop" : 1623827048876,
-    "duration" : 7667
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d69eb101a8653f3a",
-  "name" : "TC-019 Show to favorites product list",
-  "time" : {
-    "start" : 1623827151067,
-    "stop" : 1623827162377,
-    "duration" : 11310
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3caf42c6befbce3c",
+  "uid" : "45c591e4c98a917d",
   "name" : "TC-009 Ads Search",
   "time" : {
-    "start" : 1623827092282,
-    "stop" : 1623827099223,
-    "duration" : 6941
+    "start" : 1624170597015,
+    "stop" : 1624170605376,
+    "duration" : 8361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24b5cee2ae11b0ad",
+  "name" : "TC-004 Invalid Password",
+  "time" : {
+    "start" : 1624170563105,
+    "stop" : 1624170568663,
+    "duration" : 5558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c68ea907ec2a6b8",
+  "name" : "TC-005 Show all ads",
+  "time" : {
+    "start" : 1624170568678,
+    "stop" : 1624170575844,
+    "duration" : 7166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fe5e0c44be6dc30",
+  "name" : "TC-008 Display ads by Location 'Dhaka'",
+  "time" : {
+    "start" : 1624170589800,
+    "stop" : 1624170596984,
+    "duration" : 7184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e9a7d900504695c",
+  "name" : "TC-013 Show to product details",
+  "time" : {
+    "start" : 1624170615499,
+    "stop" : 1624170622311,
+    "duration" : 6812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cddeb5f7df0eb04",
+  "name" : "TC-018 Add product on Favorites",
+  "time" : {
+    "start" : 1624170641391,
+    "stop" : 1624170654165,
+    "duration" : 12774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "911d8c4598ca73cf",
+  "name" : "TC-019 Show to favorites product list",
+  "time" : {
+    "start" : 1624170654190,
+    "stop" : 1624170661888,
+    "duration" : 7698
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ca78e30305853c0",
+  "name" : "TC-008 Show ads by location",
+  "time" : {
+    "start" : 1624170390961,
+    "stop" : 1624170399018,
+    "duration" : 8057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "549ba19189986562",
+  "name" : "TC-014 Show phone number",
+  "time" : {
+    "start" : 1624170622373,
+    "stop" : 1624170632062,
+    "duration" : 9689
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac03c099e7f3a72b",
+  "name" : "TC-007 Display ads by Category 'Mobile'",
+  "time" : {
+    "start" : 1624170582384,
+    "stop" : 1624170589793,
+    "duration" : 7409
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "151b9b96a7a3495e",
+  "name" : "TC-020 Assert Browse our top category",
+  "time" : {
+    "start" : 1624170661903,
+    "stop" : 1624170663496,
+    "duration" : 1593
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "913a7ed8a82528f",
+  "name" : "TC-015 Assert product description",
+  "time" : {
+    "start" : 1624170632088,
+    "stop" : 1624170641352,
+    "duration" : 9264
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5388457e527a3468",
+  "name" : "TC-021 Open all Browse our top category link",
+  "time" : {
+    "start" : 1624170663501,
+    "stop" : 1624170678044,
+    "duration" : 14543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8f7a0df2f2626a",
+  "name" : "TC-001: Open Bikroy Site in Browser",
+  "time" : {
+    "start" : 1624170549869,
+    "stop" : 1624170554998,
+    "duration" : 5129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fdcada842743977",
+  "name" : "TC-011 Get lowest price",
+  "time" : {
+    "start" : 1624170610588,
+    "stop" : 1624170615434,
+    "duration" : 4846
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f24db39f81ad8514",
+  "name" : "TC-010 Search and count number of ads",
+  "time" : {
+    "start" : 1624170605386,
+    "stop" : 1624170610569,
+    "duration" : 5183
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13c70d757029e7a1",
+  "name" : "TC-006 Show all urgent ads",
+  "time" : {
+    "start" : 1624170575851,
+    "stop" : 1624170582378,
+    "duration" : 6527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17bee9d541ecfdf5",
+  "name" : "TC-007 Display ads by Category",
+  "time" : {
+    "start" : 1624170383933,
+    "stop" : 1624170390946,
+    "duration" : 7013
   },
   "status" : "passed",
   "severity" : "normal"

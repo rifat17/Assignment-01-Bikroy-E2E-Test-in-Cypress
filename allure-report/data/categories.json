@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "`cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n                \n                https://on.cypress.io/click",
+      "children" : [ {
+        "name" : "TC-011 Get lowest price",
+        "uid" : "1fdcada842743977",
+        "parentUid" : "5e10db7f64425f8176dbccc8919a4ef3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624170610588,
+          "stop" : 1624170615434,
+          "duration" : 4846
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e10db7f64425f8176dbccc8919a4ef3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }

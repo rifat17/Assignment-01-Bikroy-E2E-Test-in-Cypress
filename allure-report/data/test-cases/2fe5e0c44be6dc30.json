@@ -1,0 +1,46 @@
+{
+  "uid" : "2fe5e0c44be6dc30",
+  "name" : "TC-008 Display ads by Location 'Dhaka'",
+  "fullName" : "Testing Bikroy.com.TC-008 Display ads by Location 'Dhaka'",
+  "historyId" : "219f9537d32b5b56408f8949da3c2564",
+  "time" : {
+    "start" : 1624170589800,
+    "stop" : 1624170596984,
+    "duration" : 7184
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "testMethod",
+    "value" : "TC-008 Display ads by Location 'Dhaka'"
+  }, {
+    "name" : "package",
+    "value" : "Testing Bikroy.com"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2fe5e0c44be6dc30.json",
+  "parameterValues" : [ ]
+}
